@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url('/images/HimShakti.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* Background */
+body {
+  min-height: 100vh;
+  background-image: url('/images/HimShakti.jpg');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+/* Navbar */
+nav {
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(10px);
+}
+
+
+/* Hero text */
+h1 {
+  color: white;
+  text-shadow: 0px 4px 12px rgba(0,0,0,0.8);
+}
+
+
+p {
+  color: white;
+  text-shadow: 0px 3px 8px rgba(0,0,0,0.8);
+}
+
+
+/* Cards */
+div {
+  border-radius: 15px;
+}
+
+
+/* Card boxes */
+.grid > div {
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+
+/* Footer */
+footer {
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(8px);
+}
