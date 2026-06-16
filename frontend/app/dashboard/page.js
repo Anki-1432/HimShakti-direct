@@ -15,7 +15,7 @@ Dashboard Page
 </h1>
 
 <p className="mt-4">
-Welcome to dashboard page of our application.
+Dashboard page for HimShakti application.
 </p>
 
 </div>
